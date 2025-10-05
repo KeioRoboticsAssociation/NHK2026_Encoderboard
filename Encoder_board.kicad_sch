@@ -10932,7 +10932,7 @@
 			)
 		)
 	)
-	(global_label "En1_A"
+	(global_label "En3_A"
 		(shape input)
 		(at 337.82 167.64 180)
 		(fields_autoplaced yes)
@@ -10944,7 +10944,7 @@
 		)
 		(uuid "2f28580c-7573-4622-a17d-8f2d035f9966")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 325.4611 167.64 0)
+			(at 329.2711 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10998,7 +10998,7 @@
 			)
 		)
 	)
-	(global_label "En1_B"
+	(global_label "En3_B"
 		(shape input)
 		(at 337.82 172.72 180)
 		(fields_autoplaced yes)
@@ -11196,7 +11196,7 @@
 			)
 		)
 	)
-	(global_label "En1_A"
+	(global_label "En5_A"
 		(shape input)
 		(at 243.84 229.87 180)
 		(fields_autoplaced yes)
@@ -11208,7 +11208,7 @@
 		)
 		(uuid "5ebc3496-54c8-4f39-bd34-42e22e8c9baa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.4811 229.87 0)
+			(at 235.2911 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11394,7 +11394,7 @@
 			)
 		)
 	)
-	(global_label "En1_A"
+	(global_label "En2_A"
 		(shape input)
 		(at 243.84 168.91 180)
 		(fields_autoplaced yes)
@@ -11406,7 +11406,7 @@
 		)
 		(uuid "b18d936a-0a83-47c5-b9a3-7187603348f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.4811 168.91 0)
+			(at 235.2911 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11460,7 +11460,7 @@
 			)
 		)
 	)
-	(global_label "En1_A"
+	(global_label "En4_A"
 		(shape input)
 		(at 152.4 229.87 180)
 		(fields_autoplaced yes)
@@ -11472,7 +11472,7 @@
 		)
 		(uuid "b4218cea-a09a-4cd6-8820-57234ac85856")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.0411 229.87 0)
+			(at 143.8511 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11526,7 +11526,7 @@
 			)
 		)
 	)
-	(global_label "En1_B"
+	(global_label "En4_B"
 		(shape input)
 		(at 152.4 234.95 180)
 		(fields_autoplaced yes)
@@ -11548,7 +11548,7 @@
 			)
 		)
 	)
-	(global_label "En1_B"
+	(global_label "En2_B"
 		(shape input)
 		(at 243.84 173.99 180)
 		(fields_autoplaced yes)
@@ -11680,7 +11680,7 @@
 			)
 		)
 	)
-	(global_label "En1_B"
+	(global_label "En5_B"
 		(shape input)
 		(at 243.84 234.95 180)
 		(fields_autoplaced yes)
