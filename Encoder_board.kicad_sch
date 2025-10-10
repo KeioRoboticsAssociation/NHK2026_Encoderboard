@@ -7282,6 +7282,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 38.1) (xy 228.6 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b8d2cc-8985-44e8-86da-a7323a30bad4")
+	)
+	(wire
+		(pts
 			(xy 236.22 78.74) (xy 236.22 81.28)
 		)
 		(stroke
@@ -8789,6 +8799,16 @@
 			(type default)
 		)
 		(uuid "8d02e7cb-0cc5-43e9-a3ec-343790694906")
+	)
+	(wire
+		(pts
+			(xy 228.6 48.26) (xy 228.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e9eb825-33b4-4ca4-9b46-4b76550b60ab")
 	)
 	(wire
 		(pts
@@ -10460,22 +10480,22 @@
 	)
 	(global_label "User_LED"
 		(shape input)
-		(at 294.64 63.5 0)
+		(at 264.16 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "51e6e28a-8eda-4af8-a4d3-73e6cf4593b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 306.2733 63.5 0)
+			(at 252.5267 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11054,22 +11074,22 @@
 	)
 	(global_label "CAN_num2"
 		(shape input)
-		(at 264.16 63.5 180)
+		(at 294.64 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "bc58e49d-695d-422d-b9b8-b16e9316010b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.3173 63.5 0)
+			(at 307.4827 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11765,6 +11785,72 @@
 			(project "Encoder_board"
 				(path "/96c33453-f1dd-492b-8355-2f1b0e5bceff"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_4")
+		(lib_id "power:GND")
+		(at 228.6 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dc395f9-3b93-4b9d-bb48-fcb4fa3a2b7b")
+		(property "Reference" "#PWR077"
+			(at 228.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdc388c1-2562-46a9-998d-d2eef757dcea")
+		)
+		(instances
+			(project "Encoder_board"
+				(path "/96c33453-f1dd-492b-8355-2f1b0e5bceff"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -17300,7 +17386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+5V"
 			(at 375.92 67.31 0)
 			(effects
 				(font
@@ -19254,6 +19340,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 228.6 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6d1ae23-582b-45f8-b0d9-6f31b2a596b8")
+		(property "Reference" "C18"
+			(at 232.41 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 232.41 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 229.5652 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 228.6 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95125152-d039-4cd5-b5c8-cafc998fce79")
+		)
+		(pin "2"
+			(uuid "77bcf1a8-a0bb-407e-8fee-2ea0e36d254f")
+		)
+		(instances
+			(project "Encoder_board"
+				(path "/96c33453-f1dd-492b-8355-2f1b0e5bceff"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 26.67 254 0)
 		(unit 1)
@@ -20447,6 +20603,73 @@
 			(project "Encoder_board"
 				(path "/96c33453-f1dd-492b-8355-2f1b0e5bceff"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_2")
+		(lib_id "power:+3V3")
+		(at 228.6 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df12d4c5-d3bb-4265-9b31-69f6118e2fd0")
+		(property "Reference" "#PWR076"
+			(at 228.6 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 228.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 228.6 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cb2cf2c-06fd-4fb9-8e96-aead12d6e043")
+		)
+		(instances
+			(project "Encoder_board"
+				(path "/96c33453-f1dd-492b-8355-2f1b0e5bceff"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
