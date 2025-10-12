@@ -16345,7 +16345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mylib:DIP_sw_02_9.7_6.7"
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W7.62mm_P2.54mm_LowProfile"
 			(at 397.51 49.53 0)
 			(effects
 				(font
@@ -17375,7 +17375,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a062e338-d471-428e-9e89-2be850244b84")
 		(property "Reference" "#PWR070"
 			(at 375.92 76.2 0)
@@ -17386,12 +17385,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 375.92 67.31 0)
+		(property "Value" "+3V3"
+			(at 373.38 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
