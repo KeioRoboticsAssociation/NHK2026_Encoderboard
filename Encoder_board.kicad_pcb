@@ -44348,6 +44348,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "どこかにF.Silkscreenで\nJLCJLCJLCJLC\nと記述しておくと、そこに基板の製造番号位置を指定できます。おすすめです。"
+		(at 110.998 174.498 0)
+		(layer "User.2")
+		(uuid "ed27224e-c6e3-4069-aee5-440528adb221")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 131.92 110.8)
 		(end 131.8 110.8)
