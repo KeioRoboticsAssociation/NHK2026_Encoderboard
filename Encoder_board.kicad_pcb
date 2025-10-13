@@ -33911,7 +33911,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05_Socket_Encoder1"
-			(at 0 14.5 180)
+			(at -0.04 2.8 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "a90e6256-2939-4689-a7ef-600c90de26e0")
@@ -43430,6 +43430,17 @@
 		(layer "B.Cu")
 		(uuid "8f6fc5cd-258f-407b-aa87-e5456d47a488")
 	)
+	(gr_rect
+		(start 146.685 162.179)
+		(end 172.339 165.862)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "e20cdbe3-e338-44d6-8acf-20d704398ed4")
+	)
 	(gr_line
 		(start 178.503998 62.5)
 		(end 178.503998 122.5)
@@ -44201,6 +44212,138 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "各エンコーダコネクタにEn_xと書いてて良いですね\nついでにそれらがどのタイマーなのか、Tim1とかTim2とか\n書いてあると制御に優しいです。"
+		(at 110.49 137.541 0)
+		(layer "User.2")
+		(uuid "114479ba-a44b-42e7-ace1-2eb2dc28a739")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "TXとRXの部分、AかBかも書いておくと見やすいです(回路図参照）ーーーーーーーーー→\nあとGNDも。"
+		(at 71.12 121.793 0)
+		(layer "User.2")
+		(uuid "1f18bd0b-15c3-4deb-80eb-25dd753ebf9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "基板設定ー＞デザインルールー＞制約ー＞導体から基板端クリアランス\nは０にして大丈夫です\n基板の端っこも塗りつぶされるようになります。"
+		(at 84.709 45.339 0)
+		(layer "User.2")
+		(uuid "31b7152b-f99e-4f36-a0cb-d664bbf8c9e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "←Cxxなどの各リファレンス番号は同じ向きに揃えておくとはんだ付けの際に見やすいのでおすすめです。"
+		(at 173.355 84.455 0)
+		(layer "User.2")
+		(uuid "43b055f2-a39d-4ef4-bda1-1a36fdea26eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "←CAN_numからboard_num\nに変更していたただいても良いですかね\n通信にはRS-485も使えるのでCANに縛らない方が良いかなって"
+		(at 175.768 113.538 0)
+		(layer "User.2")
+		(uuid "4ccfd622-912f-44b0-bebc-910151d24b77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "ビアいっぱいあって良いですね。\n一応こんなに打たなくても十分らしいです。３−5mmに一個くらい。でも足りないより多いほうが良いのでOK\n基板の空いてるところをビアで埋めるのがめんどくさい場合は、ビア打ておじさんを使うと楽です。\nこちら→https://github.com/KeioRoboticsAssociation/Via_Ute_Ojisan"
+		(at 110.871 155.829 0)
+		(layer "User.2")
+		(uuid "6d604191-6833-4170-acad-e427ce83e91d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "ST＿Linkのシルクなんですけど ーーーーーーーーーーーーーーー→\nTXRX以外も書いていただけると挿し違いが減って嬉しいです"
+		(at 87.122 100.076 0)
+		(layer "User.2")
+		(uuid "70aa8f94-3cf2-488e-bdae-0791a9ac791e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "裏にB.Silkscreenで大きめの塗りつぶし矩形を置いておくと、\nマッキーとかで記入できるスペースを設けられるのでおすすめです。\nこれくらいの→"
+		(at 110.998 166.624 0)
+		(layer "User.2")
+		(uuid "885c66c5-b445-4ae3-8b69-d77aade1f146")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "En_1のエンコーダへの5Vが細いかも\nいや太さ的には足りるんですけど、ここだけ他と違う太さなの気になります。"
+		(at 131.572 56.134 0)
+		(layer "User.2")
+		(uuid "a595d769-9f79-4ff3-948b-60877cd37c81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "UserButtonとUserLEDも、隣にPB5とかPB0とか書いてあると制御に優しいです"
+		(at 110.744 143.891 0)
+		(layer "User.2")
+		(uuid "af2acf9b-85c7-46d9-a375-7c73202cc993")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "全体的に配線がスッキリしていて良いすね\n直角に交わるところもないように工夫したり、電流多い配線はビア多めに打ったりしててナイスです"
+		(at 197.358 143.256 0)
+		(layer "User.2")
+		(uuid "c9df0cad-6e7c-49e1-ba26-7f07d92dbef5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)

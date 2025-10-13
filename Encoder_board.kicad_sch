@@ -6407,7 +6407,6 @@
 		(at 237.49 73.66 0)
 		(effects
 			(font
-				(face "HGSｺﾞｼｯｸE")
 				(size 1.27 1.27)
 				(color 255 0 0 1)
 			)
@@ -6430,7 +6429,6 @@
 		(at 338.074 76.454 0)
 		(effects
 			(font
-				(face "HGSｺﾞｼｯｸE")
 				(size 1.27 1.27)
 				(color 255 0 0 1)
 			)
@@ -6508,7 +6506,7 @@
 		(at 99.314 75.184 0)
 		(effects
 			(font
-				(face "HGSｺﾞｼｯｸE")
+				(face "KiCad Font")
 				(size 2.54 2.54)
 				(color 255 0 0 1)
 			)
@@ -6531,7 +6529,6 @@
 		(at 256.54 203.2 0)
 		(effects
 			(font
-				(face "HGSｺﾞｼｯｸE")
 				(size 2.54 2.54)
 				(color 255 0 0 1)
 			)
@@ -6565,7 +6562,6 @@
 		(at 294.64 102.87 0)
 		(effects
 			(font
-				(face "HGSｺﾞｼｯｸE")
 				(size 1.27 1.27)
 				(color 255 0 0 1)
 			)
@@ -6588,7 +6584,6 @@
 		(at 290.83 36.83 0)
 		(effects
 			(font
-				(face "HGSｺﾞｼｯｸE")
 				(size 1.27 1.27)
 				(color 255 0 0 1)
 			)
@@ -6644,7 +6639,6 @@
 		(at 113.538 199.644 0)
 		(effects
 			(font
-				(face "HGSｺﾞｼｯｸE")
 				(size 1.27 1.27)
 				(color 255 0 0 1)
 			)
@@ -6809,7 +6803,6 @@
 		(at 199.39 30.48 0)
 		(effects
 			(font
-				(face "HGPｺﾞｼｯｸE")
 				(size 2.54 2.54)
 				(color 255 0 0 1)
 			)
