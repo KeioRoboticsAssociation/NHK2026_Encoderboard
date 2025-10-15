@@ -43713,7 +43713,7 @@
 		)
 	)
 	(gr_text "JLCJLCJLCJLC"
-		(at 151.4 122.4 0)
+		(at 158.8 112.9 90)
 		(layer "F.SilkS")
 		(uuid "2327a146-1d8b-47f6-9932-aad65df0c5a1")
 		(effects
@@ -43916,7 +43916,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "En_5_Iim8"
+	(gr_text "En_5_Tim8"
 		(at 118.4 80.8 90)
 		(layer "F.SilkS" knockout)
 		(uuid "4aa56154-5602-4ead-826e-c0ef29aefb18")
